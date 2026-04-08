@@ -1,4 +1,3 @@
-## Hi there 👋
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tushar%20Ghosh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20%7C%20ML%20Engineer%20%7C%20IIIT%20Nagpur&descAlignY=55&descSize=16" width="100%"/>
@@ -15,15 +14,28 @@ tushar = {
     "university"  : "IIIT Nagpur — B.Tech CSE (Data Science & Analytics)",
     "graduating"  : 2027,
     "location"    : "Nagpur, India 🇮🇳",
-    "focus"       : ["ML Systems", "Computer Vision", "MLOps", "Time-Series"],
-    "deployed"    : "2 live production AI systems",
+    "focus"       : ["ML Systems", "Data Analytics", "Computer Vision", "MLOps"],
+    "deployed"    : "3 live production AI/analytics systems",
     "contact"     : "tg304429@gmail.com"
 }
 ```
 
 ---
 
-## 🚀 Featured Projects
+### 🛡️ [UPI Fraud Detection — End-to-End Analytics & ML System](https://github.com/tusharg007/UPI-Fraud-Detection)
+> SQL + Python + Streamlit fraud detection dashboard on real Kaggle transaction data
+
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-ff4b4b?style=flat-square&logo=streamlit&logoColor=white)](https://upi-fraud-detection-aslzrfejp6grqekzykend9.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/tusharg007/UPI-Fraud-Detection)
+
+- 📊 **10,000 UPI transactions** — 7 SQL Window Function queries (ROW_NUMBER, LAG/LEAD, CTEs, Moving AVG)
+- 📈 Interactive **Streamlit + Plotly dashboard** with KPI cards, heatmaps, trend analysis & sidebar filters
+- 🤖 **29 engineered features** → 3 ML models (LR/RF/GBM) with class imbalance handling
+- ⚡ **FastAPI** inference server + ETL pipeline (CSV → SQLite → Analytics → Dashboard)
+
+`Python` `SQL` `Pandas` `Scikit-learn` `Plotly` `Streamlit` `FastAPI` `SQLite`
+
+---
 
 ### 🚗 [RideIQ — Ride Demand Forecasting & Driver Allocation](https://github.com/tusharg007/rideiq)
 > End-to-end ML system for ride-hailing platforms like Uber & Rapido
@@ -70,7 +82,6 @@ tushar = {
 ---
 
 ## 🛠️ Tech Stack
-
 <div align="center">
 
 | Category | Technologies |
@@ -78,8 +89,8 @@ tushar = {
 | **Languages** | Python · C++ · SQL |
 | **ML / AI** | XGBoost · Scikit-learn · PyTorch · TensorFlow · Keras |
 | **Computer Vision** | YOLOv8 · OpenCV · CLIP · Transformers |
+| **Data & Analytics** | Pandas · NumPy · SciPy · Plotly · PowerBI · Tableau · Hadoop |
 | **MLOps & Backend** | FastAPI · Flask · Docker · Streamlit · GitHub Actions |
-| **Data & Analytics** | Pandas · NumPy · SciPy · PowerBI · Tableau · Hadoop |
 | **Cloud & Tools** | Render · Streamlit Cloud · AWS · GCP · Git |
 
 </div>
@@ -87,18 +98,24 @@ tushar = {
 ---
 
 ## 📈 GitHub Stats
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tusharg007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4ff&icon_color=00ff88&text_color=ffffff" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharg007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4ff&text_color=ffffff" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=tusharg007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4ff&icon_color=00ff88&text_color=ffffff&cache_seconds=86400&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharg007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4ff&text_color=ffffff&cache_seconds=86400" height="165"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=tusharg007&theme=tokyonight&hide_border=true&background=0d1117&ring=00b4ff&fire=00ff88&currStreakLabel=00b4ff" height="165"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=tusharg007&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5" width="100%"/>
 
 </div>
 
 ---
 
 ## 📫 Connect
-
 <div align="center">
 
 [![Email](https://img.shields.io/badge/tg304429@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tg304429@gmail.com)
