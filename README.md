@@ -100,16 +100,11 @@ tushar = {
 ## 📈 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tusharg007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4ff&icon_color=00ff88&text_color=ffffff&cache_seconds=86400&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharg007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4ff&text_color=ffffff&cache_seconds=86400" height="165"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharg007&theme=react-dark&hide_border=true&bg_color=0d1117&color=00b4ff&line=00ff88&point=ffffff&area=true" width="100%"/>
 
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=tusharg007&theme=tokyonight&hide_border=true&background=0d1117&ring=00b4ff&fire=00ff88&currStreakLabel=00b4ff" height="165"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=tusharg007&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5" width="100%"/>
 
 </div>
 
