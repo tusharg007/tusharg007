@@ -15,17 +15,31 @@ tushar = {
     "graduating"  : 2027,
     "location"    : "Nagpur, India 🇮🇳",
     "focus"       : ["ML Systems", "Data Analytics", "Computer Vision", "MLOps"],
-    "deployed"    : "3 live production AI/analytics systems",
+    "deployed"    : "4 live production AI/analytics systems",
     "contact"     : "tg304429@gmail.com"
 }
 ```
 
 ---
 
+### 📊 [Financial Document Intelligence System with Multi-Modal RAG](https://github.com/tusharg007/financial-document-intelligence-rag)
+> Enterprise-grade financial document analysis processing SEC EDGAR filings using Hybrid RAG (Dense + Sparse + Cross-Encoder)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/tusharg007/financial-document-intelligence-rag)
+
+- 💬 **Intelligent Q&A** with multi-query generation and source citations
+- 🚀 **Agentic Workflow** for query rewriting and evaluation grading via LangGraph
+- 🎯 **Advanced Retrieval**: ChromaDB dense vector search + BM25 sparse + Reciprocal Rank Fusion + MS-MARCO Cross-Encoder reranking
+- 📈 **LoRA Fine-Tuning** integration mimicking remote LLMs for local inference
+- ⚡ **REST API & Dashboard**: FastAPI backend serving a premium Streamlit interface
+
+`Python` `LangChain` `FastAPI` `Streamlit` `ChromaDB` `HuggingFace` `PEFT`
+
+---
+
 ### 🛡️ [UPI Fraud Detection — End-to-End Analytics & ML System](https://github.com/tusharg007/UPI-Fraud-Detection)
 > SQL + Python + Streamlit fraud detection dashboard on real Kaggle transaction data
 
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-ff4b4b?style=flat-square&logo=streamlit&logoColor=white)](https://upi-fraud-detection-aslzrfejp6grqekzykend9.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/tusharg007/UPI-Fraud-Detection)
 
 - 📊 **10,000 UPI transactions** — 7 SQL Window Function queries (ROW_NUMBER, LAG/LEAD, CTEs, Moving AVG)
@@ -57,7 +71,6 @@ tushar = {
 ### 🛡️ [SentinelAI — AI Battlefield Intelligence Platform](https://github.com/tusharg007/sentinelai)
 > Real-time military asset detection from satellite/drone imagery
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://sentinelai-mzpttdbvspkloq6hd8hhuj.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/tusharg007/sentinelai)
 
 - 🎯 YOLOv8 military asset detection — **15 asset classes, sub-200ms CPU**
