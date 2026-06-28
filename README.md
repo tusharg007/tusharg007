@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:0D1117,50:1F6FEB,100:238636&text=Tushar%20Ghosh&fontColor=FFFFFF&fontSize=48&fontAlign=50&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20GenAI%20%26%20Agentic%20Systems%20%E2%80%A2%20Data%20Science&descAlign=50&descAlignY=57&descSize=16&animation=fadeIn" width="100%" alt="Tushar Ghosh profile banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:0D1117,50:1F6FEB,100:238636&text=Tushar%20Ghosh&fontColor=FFFFFF&fontSize=48&fontAlign=50&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20GenAI%20and%20Agentic%20Systems%20%E2%80%A2%20Data%20Science&descAlign=50&descAlignY=57&descSize=16&animation=fadeIn" width="100%" alt="Tushar Ghosh profile banner"/>
 </p>
 
 <p align="center">
