@@ -6,6 +6,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=720&lines=Building+RAG%2C+agentic+AI%2C+and+ML+systems;Turning+data+pipelines+into+deployed+AI+products;Open+to+AI%2C+GenAI%2C+ML%2C+and+Data+roles" alt="Typing animation"/>
+</p>
+
+<p align="center">
   <a href="mailto:tg304429@gmail.com">
     <img src="https://img.shields.io/badge/Email-tg304429%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
@@ -64,6 +68,10 @@ I am especially interested in roles and internships across **AI Engineering**, *
 
 ## Technical Skills
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,pytorch,tensorflow,sklearn,docker,git,github,aws,gcp,react,typescript" alt="Core technical skills"/>
+</p>
+
 | Area | Tools and Technologies |
 | --- | --- |
 | Languages | Python, SQL, C++ |
@@ -77,6 +85,10 @@ I am especially interested in roles and internships across **AI Engineering**, *
 ---
 
 ## GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharg007&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution activity graph"/>
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tusharg007&show_icons=true&theme=default&hide_border=true&rank_icon=github" height="165" alt="GitHub stats"/>
