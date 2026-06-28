@@ -12,6 +12,9 @@
 </p>
 
 <p align="center">
+  <a href="https://tushar-portfolio-taupe.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-FFD84D?style=flat-square&logo=vercel&logoColor=111111" alt="Portfolio"/>
+  </a>
   <a href="mailto:tg304429@gmail.com">
     <img src="https://img.shields.io/badge/Email-tg304429%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
@@ -106,5 +109,6 @@ I am especially interested in roles and internships across **AI Engineering**, *
 I am open to internships, entry-level opportunities, and project collaborations in AI engineering, GenAI applications, ML engineering, and data science.
 
 - Email: [tg304429@gmail.com](mailto:tg304429@gmail.com)
+- Portfolio: [tushar-portfolio-taupe.vercel.app](https://tushar-portfolio-taupe.vercel.app)
 - LinkedIn: [linkedin.com/in/tushar-ghosh-a3355124a](https://linkedin.com/in/tushar-ghosh-a3355124a/)
 - GitHub: [github.com/tusharg007](https://github.com/tusharg007)
