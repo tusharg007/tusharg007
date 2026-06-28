@@ -1,4 +1,6 @@
-<h1 align="center">Tushar Ghosh</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:0D1117,50:1F6FEB,100:238636&text=Tushar%20Ghosh&fontColor=FFFFFF&fontSize=48&fontAlign=50&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20GenAI%20%26%20Agentic%20Systems%20%E2%80%A2%20Data%20Science&descAlign=50&descAlignY=57&descSize=16&animation=fadeIn" width="100%" alt="Tushar Ghosh profile banner"/>
+</p>
 
 <p align="center">
   <b>AI / ML Engineer | GenAI & Agentic Systems | Data Science & Analytics</b><br/>
@@ -43,6 +45,8 @@ I am especially interested in roles and internships across **AI Engineering**, *
 | Project | What it demonstrates | Tech |
 | --- | --- | --- |
 | [Financial Document Intelligence System with Multi-Modal RAG](https://github.com/tusharg007/financial-document-intelligence-rag) | Hybrid retrieval over SEC filings with dense search, BM25, reciprocal rank fusion, cross-encoder reranking, source-grounded Q&A, LangGraph query workflows, and LoRA fine-tuning integration | Python, LangChain, LangGraph, FastAPI, Streamlit, ChromaDB, Hugging Face, PEFT |
+| [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Enterprise RAG knowledge agent for searching proposals, RFP responses, project outlines, and case studies with local ONNX embeddings, ChromaDB retrieval, streaming answers, source citations, and Groq/Gemini failover | Python, LangChain, ChromaDB, FastEmbed, Groq, Gemini, Streamlit, PyMuPDF |
+| [SpeakerScan](https://github.com/tusharg007/speakerscan) | Speech data annotation pipeline for TTS/dubbing datasets with speaker diarization, emotion classification, language identification, checkpointed batch processing, CLI support, and Hugging Face Spaces deployment | Python, Streamlit, PyTorch, pyannote, wav2vec2, Whisper, Plotly, Docker |
 | [UPI Fraud Detection](https://github.com/tusharg007/UPI-Fraud-Detection) | End-to-end analytics and ML system using SQL feature analysis, 29 engineered features, class imbalance handling, model comparison, dashboarding, and FastAPI inference | Python, SQL, Pandas, scikit-learn, Plotly, Streamlit, FastAPI, SQLite |
 | [RideIQ](https://github.com/tusharg007/rideiq) | Ride demand forecasting and driver allocation system with XGBoost demand prediction, surge classification, linear programming allocation, live API, and dashboard deployment | Python, XGBoost, FastAPI, Streamlit, SciPy, Docker, Render |
 | [SentinelAI](https://github.com/tusharg007/sentinelai) | Computer vision intelligence platform with YOLOv8 detection, CLIP-based semantic change detection, modal fusion, geolocation pipeline, REST APIs, tests, and CI | Python, PyTorch, YOLOv8, CLIP, FastAPI, React, TypeScript, Docker |
