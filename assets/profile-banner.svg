@@ -1,0 +1,115 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tushar Ghosh animated coding banner</title>
+  <desc id="desc">A stylized animated banner showing a developer solving AI and data problems at a laptop with neon panels and data lines.</desc>
+  <style>
+    .float { animation: float 5s ease-in-out infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .dash { stroke-dasharray: 12 16; animation: dash 7s linear infinite; }
+    .blink { animation: blink 1.4s steps(2) infinite; }
+    .slide { animation: slide 12s linear infinite; }
+    .spin { transform-origin: center; animation: spin 18s linear infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    @keyframes dash { to { stroke-dashoffset: -180; } }
+    @keyframes blink { 0%,55% { opacity: 1; } 56%,100% { opacity: .25; } }
+    @keyframes slide { from { transform: translateX(-80px); } to { transform: translateX(80px); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070A12"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#04111F"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="300" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 96) rotate(45) scale(360 220)">
+      <stop stop-color="#2563EB" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 280) rotate(45) scale(340 180)">
+      <stop stop-color="#EC4899" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 94) rotate(45) scale(260 160)">
+      <stop stop-color="#10B981" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.3" fill="#FFFFFF" opacity=".12"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#dots)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glowBlue)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glowPink)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glowGreen)"/>
+
+  <g class="slide" opacity=".55">
+    <path d="M40 74H310L360 124H560" stroke="#60A5FA" stroke-width="2"/>
+    <path d="M812 52H1040L1100 112H1170" stroke="#34D399" stroke-width="2"/>
+    <path d="M18 270H220L286 220H454" stroke="#F472B6" stroke-width="2"/>
+  </g>
+
+  <g class="dash" opacity=".75">
+    <path d="M170 176C250 88 360 88 450 168C530 240 642 238 724 168C812 94 944 104 1032 202" stroke="#60A5FA" stroke-width="3"/>
+    <path d="M130 238C262 302 386 274 500 212C626 144 756 132 914 196" stroke="#34D399" stroke-width="3"/>
+  </g>
+
+  <g opacity=".5">
+    <path d="M108 48L160 100L112 152L60 100L108 48Z" stroke="#FBBF24" stroke-width="3"/>
+    <path d="M1016 42L1072 98L1016 154L960 98L1016 42Z" stroke="#F472B6" stroke-width="3"/>
+    <path d="M1004 226L1060 282L1004 338L948 282L1004 226Z" stroke="#34D399" stroke-width="3"/>
+  </g>
+
+  <g class="float">
+    <rect x="724" y="92" width="280" height="168" rx="18" fill="#0B1220" stroke="#60A5FA" stroke-width="3"/>
+    <rect x="744" y="116" width="240" height="118" rx="10" fill="#111827"/>
+    <path d="M766 146H852M766 176H912M766 206H836" stroke="#34D399" stroke-width="8" stroke-linecap="round"/>
+    <path d="M876 146H948M934 176H960M862 206H938" stroke="#FBBF24" stroke-width="8" stroke-linecap="round"/>
+    <rect class="blink" x="950" y="199" width="10" height="18" rx="3" fill="#F8FAFC"/>
+  </g>
+
+  <g class="float" style="animation-delay:.35s">
+    <ellipse cx="586" cy="285" rx="168" ry="22" fill="#020617" opacity=".72"/>
+    <path d="M510 152C510 108 544 76 589 76C633 76 667 109 667 152V184H510V152Z" fill="#111827" stroke="#F8FAFC" stroke-width="3"/>
+    <circle cx="588" cy="98" r="44" fill="#F1F5F9" stroke="#111827" stroke-width="4"/>
+    <path d="M548 90C558 52 614 42 638 76C628 70 604 70 592 82C578 96 562 98 548 90Z" fill="#111827"/>
+    <path d="M570 108C582 118 600 118 612 108" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+    <rect x="444" y="176" width="288" height="94" rx="14" fill="#111827" stroke="#F8FAFC" stroke-width="4"/>
+    <path d="M420 270H756L716 306H462L420 270Z" fill="#020617" stroke="#F8FAFC" stroke-width="4"/>
+    <circle cx="588" cy="224" r="18" fill="#2563EB" filter="url(#softGlow)"/>
+    <path d="M578 225L586 233L602 214" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g class="spin" opacity=".9">
+    <circle cx="362" cy="112" r="46" stroke="#34D399" stroke-width="4" stroke-dasharray="12 10"/>
+    <path d="M362 78V146M328 112H396" stroke="#34D399" stroke-width="3"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <text x="60" y="122" fill="url(#titleGradient)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Tushar Ghosh</text>
+    <text x="62" y="166" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">AI / ML Engineer - GenAI Agents - Data Science</text>
+    <text x="62" y="208" fill="#93C5FD" font-family="JetBrains Mono, Consolas, monospace" font-size="20" font-weight="700">RAG • LangGraph • ML APIs • Analytics • Computer Vision</text>
+  </g>
+
+  <g opacity=".85">
+    <rect x="62" y="238" width="122" height="34" rx="17" fill="#1D4ED8"/>
+    <text x="86" y="261" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">build()</text>
+    <rect x="198" y="238" width="126" height="34" rx="17" fill="#047857"/>
+    <text x="224" y="261" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">deploy()</text>
+    <rect x="338" y="238" width="118" height="34" rx="17" fill="#BE123C"/>
+    <text x="363" y="261" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">solve()</text>
+  </g>
+</svg>
