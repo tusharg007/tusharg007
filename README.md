@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Animated banner showing Tushar Ghosh coding AI and data systems"/>
+  <img src="./assets/profile-banner.gif" width="100%" alt="Cinematic animated banner showing an AI engineer working at a modern coding setup"/>
 </p>
 
 <p align="center">
