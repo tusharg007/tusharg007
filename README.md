@@ -98,8 +98,9 @@ I am especially interested in roles and internships across **AI Engineering**, *
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tusharg007&show_icons=true&theme=default&hide_border=true&rank_icon=github" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharg007&layout=compact&theme=default&hide_border=true" height="165" alt="Top languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tusharg007&theme=github_dark" height="165" alt="GitHub stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tusharg007&theme=github_dark" height="165" alt="Top languages by repository"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tusharg007&theme=github_dark" height="165" alt="Top languages by commit"/>
 </p>
 
 ---
