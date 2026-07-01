@@ -103,6 +103,10 @@ I am especially interested in roles and internships across **AI Engineering**, *
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tusharg007&theme=github_dark" height="165" alt="Top languages by commit"/>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tusharg007&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
+</p>
+
 ---
 
 ## Contact
