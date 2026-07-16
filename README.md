@@ -1,119 +1,173 @@
 <p align="center">
-  <img src="./assets/profile-banner.gif" width="100%" alt="Cinematic animated banner showing an AI engineer working at a modern coding setup"/>
+  <img
+    src="./assets/profile-banner.gif"
+    width="100%"
+    alt="Tushar Ghosh — AI engineering, agentic AI and data science"
+  />
+</p>
+
+<h1 align="center">Hi, I'm Tushar Ghosh</h1>
+
+<p align="center">
+  <strong>AI Engineer building reliable agents, RAG systems, and data-driven ML products.</strong>
 </p>
 
 <p align="center">
-  <b>AI / ML Engineer | GenAI & Agentic Systems | Data Science & Analytics</b><br/>
-  B.Tech CSE, Data Science & Analytics, IIIT Nagpur | Graduating 2027
+  B.Tech CSE — Data Science & Analytics at IIIT Nagpur · Graduating 2027
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=720&lines=Building+RAG%2C+agentic+AI%2C+and+ML+systems;Turning+data+pipelines+into+deployed+AI+products;Open+to+AI%2C+GenAI%2C+ML%2C+and+Data+roles" alt="Typing animation"/>
+  Open to 6-month internships in AI Engineering, Agentic AI, Applied AI and Data Science across India.
 </p>
 
 <p align="center">
   <a href="https://tushar-portfolio-taupe.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-FFD84D?style=flat-square&logo=vercel&logoColor=111111" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-View%20My%20Work-FFD84D?style=flat-square&logo=vercel&logoColor=111111" alt="Portfolio"/>
   </a>
   <a href="mailto:tg304429@gmail.com">
-    <img src="https://img.shields.io/badge/Email-tg304429%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Let's%20Connect-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://linkedin.com/in/tushar-ghosh-a3355124a/">
     <img src="https://img.shields.io/badge/LinkedIn-Tushar%20Ghosh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://github.com/tusharg007">
-    <img src="https://img.shields.io/badge/GitHub-tusharg007-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
 </p>
 
 ---
 
-## About
+## What I Build
 
-I build practical AI and data systems that move from raw data to working products: retrieval pipelines, ML APIs, analytics dashboards, computer vision services, and deployment-ready backends.
+- **Agentic AI systems:** LangGraph workflows, multi-agent routing, tool orchestration, memory, grounding, evaluation and failure handling.
+- **Production-oriented GenAI products:** RAG pipelines, vector search, full-stack interfaces, REST APIs, authentication, persistent storage and deployment.
+- **Data science systems:** forecasting, anomaly detection, classification, clustering, feature engineering and decision-support applications.
 
-My current focus is on:
-
-- Generative AI applications with RAG, agentic workflows, retrieval evaluation, and LLM-powered interfaces
-- Applied machine learning for fraud detection, forecasting, optimization, and decision support
-- Data analytics workflows using SQL, Python, dashboards, and production-style APIs
-- Computer vision systems for detection, geospatial intelligence, and multi-camera analytics
-
-I am especially interested in roles and internships across **AI Engineering**, **GenAI / LLM Applications**, **Machine Learning Engineering**, and **Data Science / Analytics**.
+I focus on building dependable end-to-end systems rather than isolated model demonstrations.
 
 ---
 
-## Featured Projects
+# Featured Work
 
-| Project | What it demonstrates | Tech |
-| --- | --- | --- |
-| [Financial Document Intelligence System with Multi-Modal RAG](https://github.com/tusharg007/financial-document-intelligence-rag) | Hybrid retrieval over SEC filings with dense search, BM25, reciprocal rank fusion, cross-encoder reranking, source-grounded Q&A, LangGraph query workflows, and LoRA fine-tuning integration | Python, LangChain, LangGraph, FastAPI, Streamlit, ChromaDB, Hugging Face, PEFT |
-| [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Enterprise RAG knowledge agent for searching proposals, RFP responses, project outlines, and case studies with local ONNX embeddings, ChromaDB retrieval, streaming answers, source citations, and Groq/Gemini failover | Python, LangChain, ChromaDB, FastEmbed, Groq, Gemini, Streamlit, PyMuPDF |
-| [SpeakerScan](https://github.com/tusharg007/speakerscan) | Speech data annotation pipeline for TTS/dubbing datasets with speaker diarization, emotion classification, language identification, checkpointed batch processing, CLI support, and Hugging Face Spaces deployment | Python, Streamlit, PyTorch, pyannote, wav2vec2, Whisper, Plotly, Docker |
-| [UPI Fraud Detection](https://github.com/tusharg007/UPI-Fraud-Detection) | End-to-end analytics and ML system using SQL feature analysis, 29 engineered features, class imbalance handling, model comparison, dashboarding, and FastAPI inference | Python, SQL, Pandas, scikit-learn, Plotly, Streamlit, FastAPI, SQLite |
-| [RideIQ](https://github.com/tusharg007/rideiq) | Ride demand forecasting and driver allocation system with XGBoost demand prediction, surge classification, linear programming allocation, live API, and dashboard deployment | Python, XGBoost, FastAPI, Streamlit, SciPy, Docker, Render |
-| [SentinelAI](https://github.com/tusharg007/sentinelai) | Computer vision intelligence platform with YOLOv8 detection, CLIP-based semantic change detection, modal fusion, geolocation pipeline, REST APIs, tests, and CI | Python, PyTorch, YOLOv8, CLIP, FastAPI, React, TypeScript, Docker |
-| [Smart Retail Analytics](https://github.com/tusharg007/Smart-Retail-Analytics-System-Multi-Camera-Customer-Inventory-Intelligence) | Multi-camera customer and inventory analytics with object detection, video processing, Hadoop ETL, and business intelligence dashboards | Python, OpenCV, YOLOv8, Flask, Hadoop, Power BI |
+## 1. CortexAI — Full-Stack Multi-Agent AI Workspace
 
----
+[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/tusharg007/Cortex)
 
-## GenAI & Agentic AI
+A full-stack AI workspace built around a LangGraph supervisor that routes requests to specialized agents for conversation, web research, coding, document creation, presentation generation, image generation, vision analysis and PDF question answering.
 
-- Building RAG systems with chunking, vector search, sparse retrieval, reranking, and citation-backed answers
-- Designing agentic workflows for query rewriting, response grading, routing, and iterative retrieval
-- Integrating LLM applications with APIs, dashboards, local inference, and evaluation loops
-- Exploring fine-tuning and parameter-efficient adaptation with Hugging Face and PEFT/LoRA
+**Engineering highlights**
 
-## Data & ML Engineering
+- React and Vite workspace with an Express API gateway and independently packaged backend services
+- LangGraph supervisor with explicit and automatically classified agent routing
+- PDF RAG using document parsing, recursive chunking, Google embeddings and Qdrant vector search
+- MongoDB conversation persistence with Redis-backed recent memory
+- Groq, Gemini and OpenRouter integrations for workload-specific model execution
+- PDF, presentation, image and code-artifact delivery using AWS S3 presigned URLs
 
-- Creating production-style ML workflows: data cleaning, feature engineering, training, evaluation, inference APIs, and dashboards
-- Working with SQL analytics, window functions, KPI reporting, and dashboard-ready datasets
-- Deploying FastAPI and Streamlit applications with Docker, GitHub Actions, Render, and Streamlit Cloud
-- Applying ML to fraud detection, demand forecasting, optimization, computer vision, and operational analytics
+**Stack:** `React` `Node.js` `Express` `LangGraph` `LangChain` `MongoDB` `Redis` `Qdrant` `Groq` `Gemini` `AWS S3`
+
+> Status: substantial locally runnable engineering prototype; final production cloud deployment is a future milestone.
 
 ---
 
-## Technical Skills
+## 2. Internal RFP Analyst — Evidence-Grounded LangGraph Agent
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,pytorch,tensorflow,sklearn,docker,git,github,aws,gcp,react,typescript" alt="Core technical skills"/>
-</p>
+[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/tusharg007/Internal-RFP-Analyst)
 
-| Area | Tools and Technologies |
-| --- | --- |
-| Languages | Python, SQL, C++ |
-| GenAI / LLM Apps | LangChain, LangGraph, RAG, vector search, reranking, Hugging Face, PEFT, LoRA |
-| Machine Learning | scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, model evaluation |
-| Data Analytics | Pandas, NumPy, SciPy, Plotly, Power BI, Tableau, SQLite, Hadoop |
-| Computer Vision | YOLOv8, OpenCV, CLIP, Transformers |
-| Backend / MLOps | FastAPI, Flask, Docker, Streamlit, GitHub Actions, REST APIs |
-| Cloud / Deployment | Render, Streamlit Cloud, AWS, GCP, Git |
+A tool-orchestrated document intelligence agent that analyzes target RFPs against an internal case-study corpus and generates evidence-backed requirements, comparisons and proposal outputs.
+
+**Engineering highlights**
+
+- LangGraph StateGraph with intent routing, tool planning, scoped retrieval and final-answer synthesis
+- Separate target-RFP and internal case-study corpora using ChromaDB metadata filters
+- Requirement extraction, case-study ranking, project comparison and proposal-generation tools
+- Page-level citations, prompt-budget controls, grounding verification and a bounded repair pass
+- Automated validation through **119 passing tests**, deterministic offline evaluation and real knowledge-base evaluation harnesses
+- GitHub Actions continuous integration
+
+**Stack:** `Python` `LangGraph` `LangChain` `ChromaDB` `FastEmbed` `PyMuPDF` `Groq` `Gemini` `Streamlit` `pytest`
+
+---
+
+## 3. SifraAI — Deployed Voice-Enabled AI Assistant Platform
+
+[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/tusharg007/SifraAI)
+[![Live App](https://img.shields.io/badge/Live-Open%20Application-16A34A?style=flat-square&logo=render)](https://sifraai.onrender.com)
+
+A deployed platform that allows businesses to configure, personalize and embed branded voice-enabled AI assistants on third-party websites.
+
+**Engineering highlights**
+
+- React dashboard and Node.js/Express APIs with MongoDB persistence
+- Lightweight embeddable JavaScript widget
+- Browser speech recognition and speech synthesis through the Web Speech API
+- Gemini responses grounded in saved business context
+- Deterministic website-navigation routing before LLM invocation
+- Firebase Google authentication, JWT-protected routes, usage limits and Razorpay payments
+- Independently deployed frontend and backend services on Render
+
+**Stack:** `React` `JavaScript` `Node.js` `Express` `MongoDB` `Gemini` `Firebase` `Web Speech API` `Razorpay` `Render`
+
+---
+
+# Selected AI and Data Science Systems
+
+| Project | What it demonstrates | Evidence |
+|---|---|---|
+| [Financial Document Intelligence](https://github.com/tusharg007/financial-document-intelligence-rag) | Hybrid RAG over SEC 10-K and 10-Q filings using dense retrieval, BM25, reciprocal-rank fusion, metadata filtering and cross-encoder reranking | Current curated evaluation reports **92.6% citation coverage** and **100% SEC source-URL coverage** |
+| [RideIQ NYC Demand Forecasting](https://github.com/tusharg007/rideiq-nyc-demand-forecasting) | Leakage-safe demand forecasting, fleet-allocation simulation and route clustering over NYC TLC data | **9.55M trips**, WAPE reduced from **21.3% to 18.2%**, and **15,741 fewer unmet pickups** in simulation |
+| [AI Platform Reliability Copilot](https://github.com/tusharg007/ai-platform-reliability-copilot) | Runbook retrieval, service-log analysis, anomaly detection and structured incident intelligence | FastAPI, Streamlit, rolling baselines, optional Isolation Forest, Docker and GitHub Actions |
+
+> The Reliability Copilot uses synthetic service logs and metrics and is presented as a portfolio engineering system, not a production monitoring deployment.
+
+---
+
+# Technical Toolkit
+
+| Area | Technologies |
+|---|---|
+| **Agentic AI and GenAI** | LangGraph, LangChain, LLMs, RAG, tool calling, multi-agent workflows, prompt engineering, grounding, evaluation, guardrails, embeddings, hybrid retrieval, reranking |
+| **Backend and AI Products** | Python, JavaScript, FastAPI, Node.js, Express, React, REST APIs, Pydantic, SQLAlchemy, asynchronous workflows, webhooks |
+| **Data and Infrastructure** | MongoDB, PostgreSQL, Redis, SQLite, ChromaDB, Qdrant, Docker, GitHub Actions, AWS S3, Render |
+| **Data Science and ML** | SQL, Pandas, NumPy, scikit-learn, forecasting, anomaly detection, classification, clustering, feature engineering, model evaluation |
+| **AI Providers and Models** | Groq, Gemini, Llama, OpenRouter, Sentence Transformers, BM25, cross-encoders |
+
+---
+
+# About Me
+
+I am a B.Tech CSE student at the Indian Institute of Information Technology, Nagpur, specializing in Data Science and Analytics and graduating in 2027.
+
+My work focuses on building dependable AI systems—from LangGraph agents and evidence-grounded RAG pipelines to deployed full-stack AI products and evaluated machine-learning workflows. I enjoy working across experimentation, backend engineering, evaluation and product delivery.
+
+I am currently seeking a six-month internship where I can contribute to:
+
+- AI Engineering
+- Agentic AI and LLM systems
+- Applied AI and GenAI products
+- Data Science and Machine Learning
 
 ---
 
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharg007&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution activity graph"/>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=tusharg007&theme=github-compact&hide_border=true&area=true"
+    width="100%"
+    alt="Tushar Ghosh GitHub contribution activity"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tusharg007&theme=github_dark" height="165" alt="GitHub stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tusharg007&theme=github_dark" height="165" alt="Top languages by repository"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tusharg007&theme=github_dark" height="165" alt="Top languages by commit"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tusharg007&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
+  <img
+    src="https://komarev.com/ghpvc/?username=tusharg007&label=Profile%20Views&color=0e75b6&style=flat"
+    alt="GitHub profile views"
+  />
 </p>
 
 ---
 
 ## Contact
 
-I am open to internships, entry-level opportunities, and project collaborations in AI engineering, GenAI applications, ML engineering, and data science.
-
-- Email: [tg304429@gmail.com](mailto:tg304429@gmail.com)
-- Portfolio: [tushar-portfolio-taupe.vercel.app](https://tushar-portfolio-taupe.vercel.app)
-- LinkedIn: [linkedin.com/in/tushar-ghosh-a3355124a](https://linkedin.com/in/tushar-ghosh-a3355124a/)
-- GitHub: [github.com/tusharg007](https://github.com/tusharg007)
+- **Email:** [tg304429@gmail.com](mailto:tg304429@gmail.com)
+- **Portfolio:** [tushar-portfolio-taupe.vercel.app](https://tushar-portfolio-taupe.vercel.app)
+- **LinkedIn:** [linkedin.com/in/tushar-ghosh-a3355124a](https://linkedin.com/in/tushar-ghosh-a3355124a/)
+- **GitHub:** [github.com/tusharg007](https://github.com/tusharg007)
