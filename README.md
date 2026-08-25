@@ -48,6 +48,17 @@ I care as much about what happens when the model is wrong as when it is right.
 
 ---
 
+## Data Science & ML Work
+
+| Project | What it demonstrates | Tech |
+| --- | --- | --- |
+| [RideIQ - NYC Demand Forecasting & Fleet Intelligence](https://github.com/tusharg007/rideiq-nyc-demand-forecasting) | End-to-end mobility analytics on 9.55M NYC taxi trips: hourly zone-level demand forecasting, leakage-safe feature engineering, constrained fleet-allocation simulation, and interpretable route clustering. The best ML model improved test WAPE by 14.6% over the strongest temporal baseline. | Python, Pandas, Scikit-learn, Streamlit, FastAPI, Geospatial Analytics |
+| [Retail Analytics & Data Pipeline System](https://github.com/tusharg007/End-to-End-BI-Dashboard) | Cloud-ready retail data platform that moves simulated/public sales data from JSON and SharePoint sources through Azure Data Factory, PySpark transformation, and an Azure SQL star schema into Power BI dashboards with DirectQuery, DAX measures, and automated KPI reporting. | Python, SQL, PySpark, Azure Data Factory, Azure SQL, Power BI, DAX |
+| [ReceiptKIE-VLM - Vision-Language Receipt Understanding](https://github.com/tusharg007/receipt-kie-vlm) | LoRA fine-tuning and evaluation pipeline for structured receipt extraction with SmolVLM. The recommended high-resolution adapter generates canonical JSON for company, address, date, and total, reaching 99.2% valid JSON on 246 previously unseen SROIE test receipts. | Python, PyTorch, Transformers, PEFT/LoRA, SmolVLM, SROIE |
+
+
+---
+
 ## Other work
 
 | Project | What it demonstrates |
