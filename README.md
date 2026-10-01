@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.gif" width="100%" alt="Cinematic animated banner showing an AI engineer working at a modern coding setup"/>
+  <img src="./assets/profile-banner.gif" width="100%" alt="Animated banner showing a backend and AI engineer working at a coding setup"/>
 </p>
 
 <p align="center">
@@ -38,15 +38,26 @@ I care as much about what happens when the model is wrong as when it is right.
 
 ---
 
-## Featured Engineering Systems
+## Core Engineering Systems
 
 | Project | What it demonstrates | Tech |
 | --- | --- | --- |
 | [CortexAI - AI Developer Platform & Integration Workspace](https://github.com/tusharg007/Cortex) | Full-stack AI workspace with a React client, Express API gateway, auth/chat/agent/billing services, MongoDB and Redis persistence, LangGraph routing, RAG, multimodal workflows, and generated artifacts. | Node.js, Express, React, MongoDB, Redis, LangGraph, Qdrant |
+| [North Star - Governed Expense Operations Platform](https://github.com/tusharg007/northstar-workload-optimizer) | Governed expense operations and workflow automation platform with deterministic policy enforcement, 13 durable n8n workflows, advisory AI, human approvals, SHA-256 provenance, notification integrations, and real-time SSE updates. | Python, FastAPI, React, TypeScript, PostgreSQL, n8n, MCP |
 | [SifraAI - Deployed Voice AI Product](https://github.com/tusharg007/SifraAI) | Deployed MERN-style voice assistant product with Firebase auth, cookie/JWT sessions, MongoDB, Razorpay billing, Gemini, an embeddable JavaScript widget, and third-party website integration. | React, Node.js, Express, MongoDB, Firebase, Razorpay, Gemini |
-| [TripBandhu - Stateful Agentic Travel Research](https://github.com/tusharg007/TripBandhu) | Stateful travel-research agent with LangGraph supervisors, specialist tools, typed evidence, checkpoints, provider fallback, human review, and deterministic evaluation. | LangGraph, MCP, FastAPI, PostgreSQL, LangSmith, Docker |
-| [North Star - Governed Expense Operations Platform](https://github.com/tusharg007/northstar-workload-optimizer) | Reference-grade expense automation platform with deterministic policy enforcement, durable n8n workflows, advisory AI sub-agents, human approvals, SHA-256 provenance, optional delivery integrations, and real-time SSE updates. | Python, FastAPI, React, TypeScript, PostgreSQL, n8n, MCP |
+| [AI Platform Reliability Copilot](https://github.com/tusharg007/ai-platform-reliability-copilot) | FastAPI reliability system with a public API, Streamlit interface, incident clustering, risk scoring, runbook retrieval, Redis state, OpenTelemetry, Prometheus/Grafana, Slack alerting, and a six-stage CI pipeline. | Python, FastAPI, Redis, OpenTelemetry, Prometheus, Grafana, Helm |
 | [RevenueGuard AI - Explainable Payment Recovery](https://github.com/tusharg007/revenueguard-ai) | Event-driven payment-recovery platform with webhook ingestion, ML triage, gateway-health intelligence, Redis-backed workers, PostgreSQL, LangGraph decisions, deterministic policies, and human approval for high-value actions. | Python, FastAPI, LangGraph, PostgreSQL, Redis, Razorpay, React |
+| [Retail Lakehouse Engineering](https://github.com/tusharg007/retail-lakehouse-engineering) | Replay-safe PostgreSQL CDC pipeline orchestrated by Airflow, landed in Delta Lake with Spark, and published through dbt silver/gold models; locally verified with 42,796 events and a 38/38 dbt build. | PostgreSQL, Airflow, PySpark, Delta Lake, dbt, Docker |
+
+---
+
+## Agent & Retrieval Systems
+
+| Project | What it demonstrates |
+| --- | --- |
+| [TripBandhu - Stateful Agentic Travel Research](https://github.com/tusharg007/TripBandhu) | Stateful LangGraph travel research with five specialists, typed evidence, PostgreSQL checkpoints, provider reliability controls, and interrupt/resume human review. |
+| [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Cyclic agentic RAG for evidence-grounded RFP analysis with adaptive retrieval, evidence grading, citation verification, bounded repair, and 145 passing tests. |
+| [Financial Document Intelligence](https://github.com/tusharg007/financial-document-intelligence-rag) | Local-first SEC filing RAG with section-aware parsing, hybrid dense and BM25 retrieval, grounded citations, source URLs, no-answer handling, and evaluation tooling. |
 
 ---
 
@@ -69,6 +80,7 @@ AI is part of my normal build loop, but I do not treat "the agent says it works"
 | Agents & GenAI | LangGraph, LangChain, MCP, RAG, tool calling, structured outputs, HITL, guardrails, provenance, agent evaluation |
 | Reliability & Infrastructure | pytest, GitHub Actions, Docker, LangSmith, observability, SSE, n8n, failure handling |
 | Integrations | AWS S3, Qdrant, Tavily, Metabase, Resend, Slack, Firebase, Razorpay |
+| Data Engineering | PostgreSQL CDC, Airflow, PySpark, Delta Lake, dbt, replay-safe ingestion |
 
 ---
 
@@ -83,19 +95,9 @@ AI is part of my normal build loop, but I do not treat "the agent says it works"
 
 ---
 
-## Other Work
-
-| Project | What it demonstrates |
-| --- | --- |
-| [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Cyclic Agentic RAG for evidence-grounded RFP analysis with adaptive retrieval, evidence grading, query rewriting, citation verification, bounded repair, and 145 passing tests. |
-| [Financial Document Intelligence](https://github.com/tusharg007/financial-document-intelligence-rag) | Local-first SEC filing RAG with section-aware parsing, hybrid dense + BM25 retrieval, grounded citations, source URLs, no-answer handling, and evaluation tooling. |
-| [AI Platform Reliability Copilot](https://github.com/tusharg007/ai-platform-reliability-copilot) | Reliability analytics prototype over synthetic service telemetry with anomaly detection, incident clustering, service-risk scoring, runbook retrieval, FastAPI, Streamlit, tests, and CI. |
-
----
-
 ## About / Current Direction
 
-IIIT Nagpur. B.Tech CSE - Data Science & Analytics. Graduating 2027. Currently focused on backend-heavy full-stack engineering, reliable AI systems, and agent infrastructure. **Seeking a 6-month full-time Backend / AI Engineering internship; available immediately.**
+IIIT Nagpur. B.Tech CSE - Data Science & Analytics. Graduating 2027. Currently focused on backend-heavy full-stack engineering, reliable AI systems, and agent infrastructure. **Available immediately for a 6-month Backend / AI / FDE internship.**
 
 ---
 
@@ -119,9 +121,10 @@ IIIT Nagpur. B.Tech CSE - Data Science & Analytics. Graduating 2027. Currently f
 
 ## Contact
 
-I am open to internships and project collaborations in AI engineering, agentic systems, and applied AI infrastructure.
+I am open to Backend / AI / FDE internships and collaborations involving APIs, integrations, reliable systems, and agent workflows.
 
 - Email: [tg304429@gmail.com](mailto:tg304429@gmail.com)
 - Portfolio: [tushar-portfolio-taupe.vercel.app](https://tushar-portfolio-taupe.vercel.app)
 - LinkedIn: [linkedin.com/in/tushar-ghosh-a3355124a](https://linkedin.com/in/tushar-ghosh-a3355124a/)
 - GitHub: [github.com/tusharg007](https://github.com/tusharg007)
+
