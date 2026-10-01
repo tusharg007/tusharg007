@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <b>AI Engineer building context-aware agents, reliable AI systems, and the infrastructure around them.</b><br/>
-  B.Tech CSE - Data Science & Analytics at IIIT Nagpur - 2027
+  <b>Backend & AI Engineer building product-grade Node.js/Express systems, APIs, integrations, and reliable agent workflows.</b><br/>
+  B.Tech CSE - Data Science & Analytics @ IIIT Nagpur - 2027<br/>Backend-heavy MERN - Agent Systems - APIs - Reliability
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=760&lines=Building+context-aware+agents%2C+tooling%2C+and+reliable+AI+systems;Working+on+MCP%2C+RAG%2C+evaluations%2C+and+human-in-the-loop+workflows;Shipping+AI+infrastructure+with+state%2C+observability%2C+and+failure+handling" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=20&duration=2800&pause=900&color=1F6FEB&center=true&vCenter=true&width=760&lines=Building+Node.js%2FExpress+backends%2C+APIs%2C+and+integrations;Shipping+full-stack+products+with+reliable+agent+workflows;Working+on+state%2C+observability%2C+and+failure+handling" alt="Typing animation"/>
 </p>
 
 <p align="center">
@@ -30,45 +30,23 @@
 
 ## What I build
 
-- **Context-aware AI systems** - governed context, policies, provenance, trust signals, MCP interfaces, and controlled actions.
-- **Stateful agents** - LangGraph orchestration, tool use, persistence, human review, grounding, and failure handling.
-- **AI infrastructure** - FastAPI/Node services, retrieval, databases, integrations, observability, CI, and evaluation harnesses.
+- **Product backends** - Node.js/Express APIs, service boundaries, authentication, sessions, billing, webhooks, integrations, and data access.
+- **Full-stack AI products** - React workspaces backed by MongoDB/PostgreSQL, Redis, object storage, and deployable API services.
+- **Reliable agent systems** - LangGraph orchestration, persistence, tool use, retrieval, human review, evaluation, and failure handling.
 
 I care as much about what happens when the model is wrong as when it is right.
 
 ---
 
-## Featured Work
+## Featured Engineering Systems
 
 | Project | What it demonstrates | Tech |
 | --- | --- | --- |
-| [North Star - Governed Expense Operations Platform](https://github.com/tusharg007/northstar-workload-optimizer) | Reference-grade expense automation platform with deterministic policy enforcement, 13 durable n8n workflows, advisory AI sub-agents, human-in-the-loop approvals, SHA-256 decision provenance, optional email/Slack delivery, real-time SSE updates, and a governed MCP interface. | Python 3.13, FastAPI, React, TypeScript, PostgreSQL, n8n, MCP, Docker, GitHub Actions |
-| [RevenueGuard AI - Explainable Payment Recovery](https://github.com/tusharg007/revenueguard-ai) | Payment-recovery platform combining ML triage, gateway-health intelligence, LangGraph strategy selection, deterministic safety policies, human approval for high-value actions, and control/treatment experiment reporting. | Python, FastAPI, LangGraph, PostgreSQL, Redis, Razorpay, React |
-| [TripBandhu - Stateful Agentic Travel Research](https://github.com/tusharg007/TripBandhu) | A travel-research agent with LangGraph supervisors, specialist tools, typed evidence, checkpoints, provider fallback, human review, and deterministic evaluation. | LangGraph, MCP, FastAPI, PostgreSQL, LangSmith, Docker, GitHub Actions |
-| [CortexAI - AI Developer Platform & Integration Workspace](https://github.com/tusharg007/Cortex) | A locally operational AI workspace with service boundaries, reusable platform primitives, persistent context, and workload-specific routing across research, coding, documents, images, vision, and PDF RAG. | Node.js, Express, LangGraph, MongoDB, Redis, Qdrant, AWS S3, React |
-
----
-
-## Data Science & ML Work
-
-| Project | What it demonstrates | Tech |
-| --- | --- | --- |
-| [RideIQ - NYC Demand Forecasting & Fleet Intelligence](https://github.com/tusharg007/rideiq-nyc-demand-forecasting) | End-to-end mobility analytics on 9.55M NYC taxi trips: hourly zone-level demand forecasting, leakage-safe feature engineering, constrained fleet-allocation simulation, and interpretable route clustering. The best ML model improved test WAPE by 14.6% over the strongest temporal baseline. | Python, Pandas, Scikit-learn, Streamlit, FastAPI, Geospatial Analytics |
-| [Retail Analytics & Data Pipeline System](https://github.com/tusharg007/End-to-End-BI-Dashboard) | Cloud-ready retail data platform that moves simulated/public sales data from JSON and SharePoint sources through Azure Data Factory, PySpark transformation, and an Azure SQL star schema into Power BI dashboards with DirectQuery, DAX measures, and automated KPI reporting. | Python, SQL, PySpark, Azure Data Factory, Azure SQL, Power BI, DAX |
-| [Vendor Performance Analysis](https://github.com/tusharg007/vendor-performance-analysis) | Retail analytics workflow over purchasing, sales, pricing, and freight data that surfaces vendor concentration, unit-cost scaling, profitability differences, slow-moving inventory, and actionable assortment decisions. | Python, pandas, SQLAlchemy, SQLite, Power BI, SciPy |
-| [ReceiptKIE-VLM - Vision-Language Receipt Understanding](https://github.com/tusharg007/receipt-kie-vlm) | LoRA fine-tuning and evaluation pipeline for structured receipt extraction with SmolVLM. The recommended high-resolution adapter generates canonical JSON for company, address, date, and total, reaching 99.2% valid JSON on 246 previously unseen SROIE test receipts. | Python, PyTorch, Transformers, PEFT/LoRA, SmolVLM, SROIE |
-
-
----
-
-## Other work
-
-| Project | What it demonstrates |
-| --- | --- |
-| [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Cyclic Agentic RAG for evidence-grounded RFP analysis with adaptive retrieval, evidence grading, Tavily fallback, query rewriting, deterministic RFP tools, citation verification, and bounded answer repair; 145 tests pass. |
-| [Financial Document Intelligence](https://github.com/tusharg007/financial-document-intelligence-rag) | Local-first SEC filing RAG with section-aware parsing, hybrid dense + BM25 retrieval, reranking support, grounded citations, source URLs, explicit no-answer handling, and evaluation tooling. |
-| [SifraAI](https://github.com/tusharg007/SifraAI) | Deployed voice-enabled AI assistant platform. |
-| [AI Platform Reliability Copilot](https://github.com/tusharg007/ai-platform-reliability-copilot) | Reliability analytics prototype over synthetic service telemetry with anomaly detection, incident clustering, service-risk scoring, runbook retrieval, FastAPI contracts, Streamlit dashboard, tests, and CI. |
+| [CortexAI - AI Developer Platform & Integration Workspace](https://github.com/tusharg007/Cortex) | Full-stack AI workspace with a React client, Express API gateway, auth/chat/agent/billing services, MongoDB and Redis persistence, LangGraph routing, RAG, multimodal workflows, and generated artifacts. | Node.js, Express, React, MongoDB, Redis, LangGraph, Qdrant |
+| [SifraAI - Deployed Voice AI Product](https://github.com/tusharg007/SifraAI) | Deployed MERN-style voice assistant product with Firebase auth, cookie/JWT sessions, MongoDB, Razorpay billing, Gemini, an embeddable JavaScript widget, and third-party website integration. | React, Node.js, Express, MongoDB, Firebase, Razorpay, Gemini |
+| [TripBandhu - Stateful Agentic Travel Research](https://github.com/tusharg007/TripBandhu) | Stateful travel-research agent with LangGraph supervisors, specialist tools, typed evidence, checkpoints, provider fallback, human review, and deterministic evaluation. | LangGraph, MCP, FastAPI, PostgreSQL, LangSmith, Docker |
+| [North Star - Governed Expense Operations Platform](https://github.com/tusharg007/northstar-workload-optimizer) | Reference-grade expense automation platform with deterministic policy enforcement, durable n8n workflows, advisory AI sub-agents, human approvals, SHA-256 provenance, optional delivery integrations, and real-time SSE updates. | Python, FastAPI, React, TypeScript, PostgreSQL, n8n, MCP |
+| [RevenueGuard AI - Explainable Payment Recovery](https://github.com/tusharg007/revenueguard-ai) | Event-driven payment-recovery platform with webhook ingestion, ML triage, gateway-health intelligence, Redis-backed workers, PostgreSQL, LangGraph decisions, deterministic policies, and human approval for high-value actions. | Python, FastAPI, LangGraph, PostgreSQL, Redis, Razorpay, React |
 
 ---
 
@@ -81,21 +59,43 @@ AI is part of my normal build loop, but I do not treat "the agent says it works"
 ## Technical Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,express,postgres,mongodb,redis,docker,git,github,react,typescript" alt="Core technical skills"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,react,typescript,python,fastapi,postgres,mongodb,redis,docker,git,github" alt="Core technical skills"/>
 </p>
 
 | Area | Tools and Technologies |
 | --- | --- |
-| Agents & GenAI | LangGraph, LangChain, Model Context Protocol (MCP), RAG, tool calling, structured outputs, HITL, guardrails, provenance, agent evaluation |
-| Backend & Data | Python, FastAPI, Node.js, Express, React, TypeScript, PostgreSQL, MongoDB, Redis, SQL, SQLAlchemy, Qdrant |
+| Backend & APIs | Node.js, Express, FastAPI, REST APIs, service boundaries, authentication, sessions, webhooks, billing |
+| Full-stack | React, TypeScript, JavaScript, MongoDB, PostgreSQL, Redis, SQL, SQLAlchemy |
+| Agents & GenAI | LangGraph, LangChain, MCP, RAG, tool calling, structured outputs, HITL, guardrails, provenance, agent evaluation |
 | Reliability & Infrastructure | pytest, GitHub Actions, Docker, LangSmith, observability, SSE, n8n, failure handling |
-| Integrations | AWS S3, Tavily, n8n, Metabase, Resend, Slack, Firebase |
+| Integrations | AWS S3, Qdrant, Tavily, Metabase, Resend, Slack, Firebase, Razorpay |
+
+---
+
+## Selected ML/Data Work
+
+| Project | What it demonstrates | Tech |
+| --- | --- | --- |
+| [RideIQ - NYC Demand Forecasting & Fleet Intelligence](https://github.com/tusharg007/rideiq-nyc-demand-forecasting) | End-to-end mobility analytics on 9.55M NYC taxi trips: leakage-safe zone-hour forecasting, constrained fleet-allocation simulation, route clustering, dashboard delivery, and FastAPI service. | Python, Pandas, Scikit-learn, Streamlit, FastAPI, Geospatial Analytics |
+| [Retail Analytics & Data Pipeline System](https://github.com/tusharg007/End-to-End-BI-Dashboard) | Cloud-ready retail data platform from JSON/SharePoint sources through Azure Data Factory and PySpark into an Azure SQL star schema and Power BI dashboards. | Python, SQL, PySpark, Azure Data Factory, Azure SQL, Power BI, DAX |
+| [Vendor Performance Analysis](https://github.com/tusharg007/vendor-performance-analysis) | Retail analytics workflow over purchasing, sales, pricing, and freight data that surfaces vendor concentration, unit-cost scaling, profitability differences, slow-moving inventory, and assortment decisions. | Python, pandas, SQLAlchemy, SQLite, Power BI, SciPy |
+| [ReceiptKIE-VLM - Vision-Language Receipt Understanding](https://github.com/tusharg007/receipt-kie-vlm) | LoRA fine-tuning and evaluation pipeline for SmolVLM receipt extraction, reaching 99.2% valid JSON on 246 unseen SROIE test receipts. | Python, PyTorch, Transformers, PEFT/LoRA, SmolVLM, SROIE |
+
+---
+
+## Other Work
+
+| Project | What it demonstrates |
+| --- | --- |
+| [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Cyclic Agentic RAG for evidence-grounded RFP analysis with adaptive retrieval, evidence grading, query rewriting, citation verification, bounded repair, and 145 passing tests. |
+| [Financial Document Intelligence](https://github.com/tusharg007/financial-document-intelligence-rag) | Local-first SEC filing RAG with section-aware parsing, hybrid dense + BM25 retrieval, grounded citations, source URLs, no-answer handling, and evaluation tooling. |
+| [AI Platform Reliability Copilot](https://github.com/tusharg007/ai-platform-reliability-copilot) | Reliability analytics prototype over synthetic service telemetry with anomaly detection, incident clustering, service-risk scoring, runbook retrieval, FastAPI, Streamlit, tests, and CI. |
 
 ---
 
 ## About / Current Direction
 
-IIIT Nagpur. B.Tech CSE - Data Science & Analytics. Graduating 2027. Currently focused on AI engineering, governed agentic systems, applied AI infrastructure, reliability, and data/ML systems. Looking for a 6-month full-time internship starting September 2026.
+IIIT Nagpur. B.Tech CSE - Data Science & Analytics. Graduating 2027. Currently focused on backend-heavy full-stack engineering, reliable AI systems, and agent infrastructure. **Seeking a 6-month full-time Backend / AI Engineering internship; available immediately.**
 
 ---
 
