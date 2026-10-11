@@ -122,7 +122,9 @@ Project summaries checked against current repository documentation on **9 Octobe
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharg007&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution activity graph"/>
+  <a href="https://github.com/tusharg007?tab=overview">
+    <img src="./assets/contribution-graph.svg" width="100%" alt="GitHub contributions: daily counts for the last 30 days and a trailing-year total, refreshed daily"/>
+  </a>
 </p>
 
 <p align="center">
@@ -132,8 +134,12 @@ Project summaries checked against current repository documentation on **9 Octobe
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tusharg007&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
+  <a href="https://komarev.com/ghpvc/?username=tusharg007">
+    <img src="https://komarev.com/ghpvc/?username=tusharg007&amp;label=Profile+views&amp;color=2f81f7&amp;style=for-the-badge&amp;abbreviated=false" alt="Profile views (page hits, not unique visitors)"/>
+  </a>
 </p>
+
+<p align="center"><sub>Contribution data refreshes daily from GitHub. Profile views are approximate image requests, not unique visitors.</sub></p>
 
 ---
 
