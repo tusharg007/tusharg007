@@ -135,11 +135,13 @@ Project summaries checked against current repository documentation on **9 Octobe
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=tusharg007">
-    <img src="https://komarev.com/ghpvc/?username=tusharg007&amp;label=Profile+views&amp;color=2f81f7&amp;style=for-the-badge&amp;abbreviated=false" alt="Profile views (page hits, not unique visitors)"/>
+    <img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fkomarev.com%2Fghpvc%2F%3Fusername%3Dtusharg007&amp;query=%2F%2F%2A%5Blocal-name%28%29%3D%22text%22%5D%5Blast%28%29%5D&amp;label=Profile%20views&amp;color=2f81f7&amp;style=for-the-badge" alt="Profile views (approximate, cached page hits)"/>
   </a>
+  <!-- Keep the existing counter collecting requests independently of the cached display badge. -->
+  <img src="https://komarev.com/ghpvc/?username=tusharg007&amp;style=pixel" width="1" height="1" alt=""/>
 </p>
 
-<p align="center"><sub>Contribution data refreshes daily from GitHub. Profile views are approximate image requests, not unique visitors.</sub></p>
+<p align="center"><sub>Contribution data refreshes daily from GitHub. Profile views are approximate image requests, not unique visitors; the badge is cached and may lag.</sub></p>
 
 ---
 
