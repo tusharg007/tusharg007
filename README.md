@@ -28,6 +28,36 @@
 
 ---
 
+## About Me
+
+I'm **Tushar Ghosh**, pursuing **B.Tech CSE - Data Science & Analytics at IIIT Nagpur**, expected **2027**. I build intelligent agents, reliable AI systems, data pipelines, and agentic full-stack applications.
+
+🔭 Currently working as a **Generative AI & Machine Learning Engineer Intern (Remote)** at **MyManah**, architecting multi-agent LLM systems, hybrid RAG pipelines, and automated model evaluation frameworks.
+
+## 💼 Experience
+
+### MyManah
+**Generative AI & Machine Learning Engineer Intern**  
+**Oct 2026 – Present · Remote**
+
+![Generative AI](https://img.shields.io/badge/Focus-Generative_AI-2563EB?style=flat-square)
+![Remote](https://img.shields.io/badge/Work_Mode-Remote-475569?style=flat-square)
+![Current Role](https://img.shields.io/badge/Status-Current_Role-15803D?style=flat-square)
+
+- **Multi-agent orchestration:** Architecting LangGraph systems in Python with stateful execution, conditional routing, and guardrails for controlled agent behavior.
+- **Grounded retrieval:** Developing hybrid RAG pipelines combining dense and sparse retrieval with re-ranking to support evidence-grounded domain reasoning.
+- **Evaluation & APIs:** Building automated model evaluation suites measuring hallucination rate, context precision, and latency, backed by production FastAPI microservices.
+
+**Core engineering stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Hybrid RAG](https://img.shields.io/badge/Hybrid_RAG-2563EB?style=flat-square)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+---
+
 ## What I build
 
 - **Data analytics & engineering** - SQL transformations, CDC and ETL pipelines, analytics models, Power BI/Metabase dashboards, statistical analysis, and forecasting that connect data to business decisions.
@@ -113,7 +143,7 @@ AI is part of my normal build loop, but I do not treat "the agent says it works"
 
 ## About / Current Direction
 
-IIIT Nagpur. B.Tech CSE - Data Science & Analytics. Graduating 2027. Interested in roles where software, data and AI meet: full-stack engineering, data analytics/engineering, and AI/ML systems. **Available immediately for a 6-month internship across these areas.**
+Currently a **Generative AI & Machine Learning Engineer Intern at MyManah**, working remotely on agent orchestration, grounded retrieval, evaluation, and FastAPI services. My broader engineering interests span **AI systems, full-stack development, and data analytics / engineering**.
 
 Project summaries checked against current repository documentation on **9 October 2026**. Local tests, offline evaluations and prototypes are identified separately from deployed products.
 
