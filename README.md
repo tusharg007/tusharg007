@@ -60,6 +60,7 @@ I'm **Tushar Ghosh**, pursuing **B.Tech CSE - Data Science & Analytics at IIIT N
 
 ## What I build
 
+- **AI automation** - Event-driven agent workflows, n8n/Zapier orchestration, webhook integrations, human approval gates, durable execution, and traceable outcomes.
 - **Data analytics & engineering** - SQL transformations, CDC and ETL pipelines, analytics models, Power BI/Metabase dashboards, statistical analysis, and forecasting that connect data to business decisions.
 - **Full-stack products** - React/TypeScript interfaces, Node.js/Express and FastAPI services, databases, authentication, billing, webhooks, and third-party integrations.
 - **AI / ML systems** - Stateful agents, evidence-grounded retrieval, local model inference, vision-language fine-tuning, human review, evaluation, and failure handling.
@@ -68,16 +69,27 @@ I care as much about what happens when the model is wrong as when it is right.
 
 ---
 
+## AI Automation & Agentic Workflows
+
+Event-driven systems that connect business triggers to evidence collection, agent execution, human review, and auditable delivery. AI proposes; explicit policies and approval boundaries control consequential actions.
+
+| Project | Automation workflow | Tech |
+| --- | --- | --- |
+| [SignalBrief - Competitive Intelligence Automation](https://github.com/tusharg007/signalbrief-competitive-intelligence) | Automates RSS-triggered research through Zapier, CrewAI evidence collection and AutoGen critique; pauses for version-bound human approval before Slack delivery. Neon checkpoints, worker leases and a transactional outbox preserve workflow state. [Approved workspace](https://signalbrief-dncb.onrender.com/showcase?run=d1434228a9ad4f92acc120d45af1c437) / [Walkthrough](https://github.com/tusharg007/signalbrief-competitive-intelligence/blob/main/docs/demo/signalbrief-walkthrough.mp4). | FastAPI, CrewAI, AutoGen, Zapier, Neon PostgreSQL, Slack |
+| [North Star - Governed Expense Automation](https://github.com/tusharg007/northstar-workload-optimizer) | Orchestrates expense intake, policy checks, human approval and optional Slack/email notifications across 13 durable n8n workflows. AI explains and investigates; deterministic FastAPI policy owns financial outcomes. Includes retry/dead-letter replay and SHA-256 provenance. Locally verified reference build. | FastAPI, n8n, PostgreSQL, React, MCP |
+| [RevenueGuard AI - Payment Recovery Automation](https://github.com/tusharg007/revenueguard-ai) | Turns signed Razorpay failure webhooks into persisted recovery cases and Redis-worker tasks. ML triage and LangGraph propose retry/defer/stop strategies; deterministic guardrails and high-value human approval gate actions and preserve an audit trail. Public product; demo and evaluation use synthetic/test-mode events, not production recovery results. | FastAPI, LangGraph, Redis, PostgreSQL, Razorpay, React |
+| [StyleHub - AI Campaign & Lifecycle Automation](https://github.com/tusharg007/xeno-crm-backend) | Converts audience requests into SQL-grounded segments and drafted campaigns with human launch approval. Six lifecycle journey templates automate segment-to-campaign flows; the separate [channel service](https://github.com/tusharg007/xeno-channel-service) simulates asynchronous delivery and receipt callbacks for inspectable status and analytics. | FastAPI, LangGraph, Streamlit, SQLite, SQLAlchemy |
+| [TripBandhu - Human-Reviewed Travel Research Automation](https://github.com/tusharg007/TripBandhu) | Routes travel requests across five LangGraph specialists, gathers typed provider evidence and pauses for itinerary review. PostgreSQL checkpoints support interrupt/resume, while approved plans become session-bound PDFs without repeating inference. Automates research and planning, not bookings. | Python, FastAPI, LangGraph, PostgreSQL |
+
+---
+
 ## Full-Stack & Platform Engineering
 
 | Project | What it demonstrates | Tech |
 | --- | --- | --- |
 | [CortexAI - AI Developer Platform & Integration Workspace](https://github.com/tusharg007/Cortex) | Full-stack AI workspace with a React client, Express API gateway, auth/chat/agent/billing services, MongoDB and Redis persistence, LangGraph routing, RAG, multimodal workflows, and generated artifacts. | Node.js, Express, React, MongoDB, Redis, LangGraph, Qdrant |
-| [North Star - Governed Expense Operations Platform](https://github.com/tusharg007/northstar-workload-optimizer) | Expense operations with deterministic policy, 13 durable n8n workflows, advisory AI, human approvals, SHA-256 provenance, notifications and SSE. Local release reports 182 PostgreSQL tests, plus a Metabase bootstrap with 36 questions and five dashboards. | Python, FastAPI, React, TypeScript, PostgreSQL, n8n, MCP |
 | [SifraAI - Deployed Voice AI Product](https://github.com/tusharg007/SifraAI) | Deployed MERN-style voice assistant product with Firebase auth, cookie/JWT sessions, MongoDB, Razorpay billing, Gemini, an embeddable JavaScript widget, and third-party website integration. | React, Node.js, Express, MongoDB, Firebase, Razorpay, Gemini |
 | [AI Platform Reliability Copilot](https://github.com/tusharg007/ai-platform-reliability-copilot) | FastAPI incident clustering, risk scoring and runbook retrieval with Redis, OpenTelemetry, Prometheus/Grafana, Slack and a six-stage CI pipeline. Public API health reports v2.0.0 with a mock LLM provider; the demonstration uses synthetic telemetry. | Python, FastAPI, Redis, OpenTelemetry, Prometheus, Grafana, Helm |
-| [RevenueGuard AI - Explainable Payment Recovery](https://github.com/tusharg007/revenueguard-ai) | Event-driven payment-recovery platform with webhook ingestion, ML triage, gateway-health intelligence, Redis-backed workers, PostgreSQL, LangGraph decisions, deterministic policies, and human approval for high-value actions. | Python, FastAPI, LangGraph, PostgreSQL, Redis, Razorpay, React |
-| [StyleHub - Xeno CRM Backend](https://github.com/tusharg007/xeno-crm-backend) | Campaign manager with SQL-grounded customer segmentation, a hybrid deterministic/LangGraph agent, human launch approval and lifecycle journeys; paired with a separate [channel simulator](https://github.com/tusharg007/xeno-channel-service) for asynchronous delivery and receipt callbacks. | FastAPI, Streamlit, SQLite, SQLAlchemy, LangGraph |
 
 ---
 
@@ -98,8 +110,6 @@ I care as much about what happens when the model is wrong as when it is right.
 
 | Project | What it demonstrates |
 | --- | --- |
-| [SignalBrief - Competitive Intelligence](https://github.com/tusharg007/signalbrief-competitive-intelligence) | Deployed research-to-review workflow: Zapier RSS ingress, CrewAI evidence collection, AutoGen critique, human approval and Slack delivery. Neon preserves source hashes, execution records and a transactional outbox; 49 regression tests reported on SQLite and PostgreSQL. [Public approved-run workspace](https://signalbrief-dncb.onrender.com/showcase?run=d1434228a9ad4f92acc120d45af1c437). |
-| [TripBandhu - Stateful Agentic Travel Research](https://github.com/tusharg007/TripBandhu) | v1.1.1: five LangGraph specialists, typed provider evidence, PostgreSQL checkpoints, provider reliability controls, interrupt/resume review and session-bound server-rendered PDFs. 188 regression tests and 49/49 FAST benchmark cases reported. |
 | [MyManah Journal Intelligence](https://github.com/tusharg007/mymanah-journal-intelligence) | Local-model journal analysis and cited PDF Q&A with FastAPI/React, Ollama, Hugging Face classifiers, SQLite, Chroma and hybrid retrieval. Current policy revision reports 96 deterministic Windows tests; actual-model, offline and backup/restore checks are documented. Engineering prototype, not clinically validated. |
 | [Internal RFP Analyst](https://github.com/tusharg007/Internal-RFP-Analyst) | Cyclic RAG with citation verification and 145 tests on main. The separate [Neo4j GraphRAG edition](https://github.com/tusharg007/Internal-RFP-Analyst/tree/feature/graphrag-neo4j) adds vector/graph/hybrid modes and reports 641 passed, 5 skipped; its public walkthrough used transparent vector fallback, and comparative retrieval superiority is not claimed. |
 | [Financial Document Intelligence](https://github.com/tusharg007/financial-document-intelligence-rag) | SEC EDGAR ingestion, section-aware chunks, dense/BM25 retrieval, grounded citations, abstention and evaluation tools; 79 tests reported. Full indexing runs locally; the hosted UI is a lightweight preview. |
