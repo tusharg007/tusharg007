@@ -159,6 +159,17 @@ Project summaries checked against current repository documentation on **9 Octobe
 
 ---
 
+## Coding Profiles & Problem Solving
+
+**1,250+ DSA problems solved across coding platforms.**
+
+| Platform | Handle | Focus / Achievement |
+| --- | --- | --- |
+| [LeetCode](https://leetcode.com/u/not_coding/) | [`@not_coding`](https://leetcode.com/u/not_coding/) | Data structures, algorithms, and interview problem solving |
+| [CodeChef](https://www.codechef.com/users/h2SO3) | [`@h2SO3`](https://www.codechef.com/users/h2SO3) | **3-Star** competitive programmer; **peak rating: 1,608** |
+
+---
+
 ## GitHub Activity
 
 <p align="center">
