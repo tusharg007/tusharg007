@@ -117,6 +117,19 @@ Event-driven systems that connect business triggers to evidence collection, agen
 
 ---
 
+## Fine-Tuning, Vision & Speech
+
+Hands-on work in parameter-efficient vision-language fine-tuning, computer vision for document extraction, and pretrained speech-model integration.
+
+| Project | Engineering work & evidence | Tech |
+| --- | --- | --- |
+| [ReceiptOps / ReceiptKIE-VLM - Vision-Language Fine-Tuning](https://github.com/tusharg007/receipt-kie-vlm) | Fine-tuned Qwen3-VL-2B with NF4 QLoRA on a Tesla T4 for receipt-image-to-JSON extraction. The audited 239-image retrospective comparison reports **92.2% macro field exact match**, **73.6% complete-record exact match**, and **100% strict JSON validity**. Includes merchant-disjoint validation, content-duplicate audits, saved predictions and base-versus-adapter comparisons. [Results](https://github.com/tusharg007/receipt-kie-vlm/blob/main/QWEN3_VL_RESULTS.md) / [Training protocol](https://github.com/tusharg007/receipt-kie-vlm/blob/main/KAGGLE_TRAINING.md). | PyTorch, Transformers, PEFT/QLoRA, bitsandbytes, Qwen3-VL, FastAPI |
+| [SpeakerScan - Speech Annotation & Audio ML](https://github.com/tusharg007/speakerscan) | Combines pyannote speaker diarization, wav2vec2 speech-emotion classification and Whisper language identification into per-segment annotations. Built Streamlit/Plotly and batch CLI workflows with cached models, inference locks, reusable WAV/RTTM checkpoints, atomic JSON/RTTM writes and CSV manifests. Demonstrates speech-model integration and annotation infrastructure, not training a speech model. | Python, PyTorch, pyannote, wav2vec2, Whisper, Streamlit, FFmpeg |
+
+**Evidence boundaries:** ReceiptOps results are retrospective, not a fresh-domain benchmark; the latest Qwen adapter runs through its verified CLI, while the API still serves legacy SmolVLM V2. SpeakerScan uses pretrained models; no validated emotion-accuracy claim is made.
+
+---
+
 ## How I build
 
 AI is part of my normal build loop, but I do not treat "the agent says it works" as completion. I use coding agents for repo exploration, implementation, tests, repetitive changes, and debugging, then verify behavior with tests, CI, traces, logs, and the running system. The architectural and product decisions stay mine.
@@ -139,15 +152,6 @@ AI is part of my normal build loop, but I do not treat "the agent says it works"
 | Data Engineering | PostgreSQL CDC, Airflow, PySpark, Delta Lake, dbt, replay-safe ingestion |
 | Analytics & BI | Pandas, NumPy, SQL, Power BI, DAX, Metabase, statistical tests, forecasting, data quality, dimensional modeling |
 | Local & Multimodal ML | PyTorch, Transformers, PEFT/LoRA, SmolVLM, Ollama, Chroma, Whisper, pyannote |
-
----
-
-## Selected Applied ML & Multimodal Work
-
-| Project | What it demonstrates | Tech |
-| --- | --- | --- |
-| [ReceiptKIE-VLM - V2 High-Resolution Receipt Extraction](https://github.com/tusharg007/receipt-kie-vlm) | Continued LoRA adaptation of SmolVLM at 1536 px; 99.2% valid JSON, 63.3% macro field exact match and 18.3% complete-record exact match on 246 previously unseen SROIE test receipts. V1 remains a reproducible baseline. | PyTorch, Transformers, PEFT/LoRA, SmolVLM, SROIE |
-| [SpeakerScan](https://github.com/tusharg007/speakerscan) | Speech annotation combining pyannote diarization, wav2vec2 emotion and Whisper language ID with sequential model loading, resumable stage checkpoints and atomic JSON/RTTM exports plus a CSV manifest. | Python, PyTorch, pyannote, wav2vec2, Whisper, Streamlit |
 
 ---
 
