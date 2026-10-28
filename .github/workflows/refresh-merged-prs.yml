@@ -1,4 +1,4 @@
-name: Refresh public merged pull requests
+name: Refresh merged engineering contributions
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
     paths:
       - 'scripts/update-merged-prs*'
       - '.github/workflows/refresh-merged-prs.yml'
+      - 'data/approved-private-prs.json'
 
 permissions:
   contents: write
@@ -28,15 +29,17 @@ jobs:
           node-version: '22'
       - name: Test merged PR renderer
         run: node --test scripts/update-merged-prs.test.mjs
-      - name: Refresh public PR list
+      - name: Refresh external and approved employer PR metadata
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          PRIVATE_PRS_TOKEN: ${{ secrets.MERGED_PRS_READ_TOKEN }}
         run: node scripts/update-merged-prs.mjs
       - name: Commit updated profile section
         run: |
-          git add README.md assets/merged-prs.json
+          git add README.md assets/merged-prs.json data/approved-private-prs.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh merged public PRs"
+          git commit -m "chore: refresh merged engineering contributions"
+          git pull --rebase origin main
           git push

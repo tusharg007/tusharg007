@@ -56,20 +56,14 @@ I'm **Tushar Ghosh**, pursuing **B.Tech CSE - Data Science & Analytics at IIIT N
 ![Hybrid RAG](https://img.shields.io/badge/Hybrid_RAG-2563EB?style=flat-square)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-### Merged Pull Requests
+### Merged Engineering Contributions
 
-- **First PR merged:** October 28, 2026, in a private employer repository. Repository, title, and implementation details are intentionally omitted.
-
-**Recent public PRs**
-
-Recent merged contributions in public repositories. Private PR details are not included in the public feed.
+Merged PRs in employer and external repositories, excluding my personal projects. Private contributions show only approved repository, PR number and merge date; titles and implementation details remain private.
 
 <!--START_MERGED_PRS-->
-| Pull request | Repository | Merged |
+| Contribution | Repository | Merged |
 | --- | --- | --- |
-| [Add application workflow screenshots](<https://github.com/tusharg007/Internal-RFP-Analyst/pull/3>) | Internal-RFP-Analyst | 2026-07-12 |
-| [Agentic rag v2](<https://github.com/tusharg007/Internal-RFP-Analyst/pull/2>) | Internal-RFP-Analyst | 2026-07-12 |
-| [Complete agentic RAG architecture and documentation](<https://github.com/tusharg007/Internal-RFP-Analyst/pull/1>) | Internal-RFP-Analyst | 2026-07-12 |
+| PR #1 - Merged contribution (private) | MyManah/manai-llm-server | 2026-10-28 |
 <!--END_MERGED_PRS-->
 
 ---

@@ -1,23 +1,11 @@
 {
-  "updatedAt": "2026-10-28T06:42:31.039Z",
+  "updatedAt": "2026-10-28T06:56:31.113Z",
   "items": [
     {
-      "number": 3,
-      "title": "Add application workflow screenshots",
-      "url": "https://github.com/tusharg007/Internal-RFP-Analyst/pull/3",
-      "mergedAt": "2026-07-12T01:54:56Z"
-    },
-    {
-      "number": 2,
-      "title": "Agentic rag v2",
-      "url": "https://github.com/tusharg007/Internal-RFP-Analyst/pull/2",
-      "mergedAt": "2026-07-12T01:04:38Z"
-    },
-    {
       "number": 1,
-      "title": "Complete agentic RAG architecture and documentation",
-      "url": "https://github.com/tusharg007/Internal-RFP-Analyst/pull/1",
-      "mergedAt": "2026-07-12T00:51:27Z"
+      "repository": "MyManah/manai-llm-server",
+      "private": true,
+      "mergedAt": "2026-10-28T02:38:36Z"
     }
   ]
 }
