@@ -56,6 +56,18 @@ I'm **Tushar Ghosh**, pursuing **B.Tech CSE - Data Science & Analytics at IIIT N
 ![Hybrid RAG](https://img.shields.io/badge/Hybrid_RAG-2563EB?style=flat-square)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
+### Public Merged Pull Requests
+
+Recent merged contributions in public repositories. Private employer work is intentionally omitted.
+
+<!--START_MERGED_PRS-->
+| Pull request | Repository | Merged |
+| --- | --- | --- |
+| [Add application workflow screenshots](<https://github.com/tusharg007/Internal-RFP-Analyst/pull/3>) | Internal-RFP-Analyst | 2026-07-12 |
+| [Agentic rag v2](<https://github.com/tusharg007/Internal-RFP-Analyst/pull/2>) | Internal-RFP-Analyst | 2026-07-12 |
+| [Complete agentic RAG architecture and documentation](<https://github.com/tusharg007/Internal-RFP-Analyst/pull/1>) | Internal-RFP-Analyst | 2026-07-12 |
+<!--END_MERGED_PRS-->
+
 ---
 
 ## What I build
