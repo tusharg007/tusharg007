@@ -56,9 +56,13 @@ I'm **Tushar Ghosh**, pursuing **B.Tech CSE - Data Science & Analytics at IIIT N
 ![Hybrid RAG](https://img.shields.io/badge/Hybrid_RAG-2563EB?style=flat-square)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-### Public Merged Pull Requests
+### Merged Pull Requests
 
-Recent merged contributions in public repositories. Private employer work is intentionally omitted.
+- **First PR merged:** October 28, 2026, in a private employer repository. Repository, title, and implementation details are intentionally omitted.
+
+**Recent public PRs**
+
+Recent merged contributions in public repositories. Private PR details are not included in the public feed.
 
 <!--START_MERGED_PRS-->
 | Pull request | Repository | Merged |
