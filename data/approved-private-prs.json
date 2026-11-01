@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "number": 2,
+      "repository": "MyManah/manai-llm-server",
+      "private": true,
+      "mergedAt": "2026-10-29T02:59:20Z"
+    },
+    {
       "number": 1,
       "repository": "MyManah/manai-llm-server",
       "private": true,

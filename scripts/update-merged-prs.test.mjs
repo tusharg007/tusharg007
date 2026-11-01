@@ -21,6 +21,17 @@ test('strips all non-approved private PR fields', () => {
   assert.deepEqual(normalizePr({ ...privatePr, title: 'Confidential', body: 'secret', url: 'https://github.com/private' }), privatePr);
 });
 
+test('retains all verified private entries without a private read token', async () => {
+  const recent = { ...privatePr, number: 2, mergedAt: '2026-10-29T02:59:20Z' };
+  const result = await collectMergedPrs({ privatePrs: [privatePr, recent], request: async () => response({ items: [] }) });
+  assert.deepEqual(result.items, [recent, privatePr]);
+  assert.deepEqual(result.privateItems, [recent, privatePr]);
+  const table = renderMergedPrs(result.items);
+  assert.match(table, /PR #2 - Merged contribution \(private\)/);
+  assert.match(table, /2026-10-29/);
+  assert.doesNotMatch(table, /https:/);
+});
+
 test('updates only the marked README region', () => {
   const readme = 'before\n<!--START_MERGED_PRS-->\nold\n<!--END_MERGED_PRS-->\nafter';
   const updated = updateReadme(readme, [privatePr]);
