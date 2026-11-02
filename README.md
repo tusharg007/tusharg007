@@ -166,14 +166,6 @@ AI is part of my normal build loop, but I do not treat "the agent says it works"
 
 ---
 
-## About / Current Direction
-
-Currently a **Generative AI & Machine Learning Engineer Intern at MyManah**, working remotely on agent orchestration, grounded retrieval, evaluation, and FastAPI services. My broader engineering interests span **AI systems, full-stack development, and data analytics / engineering**.
-
-LeadDesk reviewed against current repository documentation on **1 November 2026**; other project evidence retains its previously documented verification scope. Local tests, offline evaluations and prototypes are identified separately from deployed products.
-
----
-
 ## Coding Profiles & Problem Solving
 
 **1,250+ DSA problems solved across coding platforms.**
