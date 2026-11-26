@@ -61,10 +61,15 @@ I'm **Tushar Ghosh**, pursuing **B.Tech CSE - Data Science & Analytics at IIIT N
 Merged PRs in employer and external repositories, excluding my personal projects. Private contributions show only approved repository, PR number and merge date; titles and implementation details remain private.
 
 <!--START_MERGED_PRS-->
+**Merged PRs outside personal projects: 8** Showing the 5 most recent.
+
 | Contribution | Repository | Merged |
 | --- | --- | --- |
-| PR #2 - Merged contribution (private) | MyManah/manai-llm-server | 2026-10-29 |
-| PR #1 - Merged contribution (private) | MyManah/manai-llm-server | 2026-10-28 |
+| PR #8 - Merged contribution (private) | MyManah/manai-llm-server | 2026-11-19 |
+| PR #7 - Merged contribution (private) | MyManah/manai-llm-server | 2026-11-19 |
+| PR #6 - Merged contribution (private) | MyManah/manai-llm-server | 2026-11-13 |
+| PR #5 - Merged contribution (private) | MyManah/manai-llm-server | 2026-11-11 |
+| PR #4 - Merged contribution (private) | MyManah/manai-llm-server | 2026-11-03 |
 <!--END_MERGED_PRS-->
 
 ---

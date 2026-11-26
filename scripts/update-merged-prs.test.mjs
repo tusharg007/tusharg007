@@ -32,6 +32,39 @@ test('retains all verified private entries without a private read token', async 
   assert.doesNotMatch(table, /https:/);
 });
 
+test('counts all verified contributions while showing only the five latest', async () => {
+  const privatePrs = Array.from({ length: 8 }, (_, index) => ({
+    ...privatePr,
+    number: index + 1,
+    mergedAt: `2026-11-0${index + 1}T12:00:00Z`,
+  }));
+  const { items } = await collectMergedPrs({ privatePrs, request: async () => response({ items: [] }) });
+  const output = renderMergedPrs(items);
+  assert.match(output, /Merged PRs outside personal projects: 8/);
+  assert.match(output, /Showing the 5 most recent/);
+  assert.deepEqual([...output.matchAll(/PR #(\d+) -/g)].map((match) => Number(match[1])), [8, 7, 6, 5, 4]);
+});
+
+test('counts public external PRs across search pages', async () => {
+  const items = Array.from({ length: 101 }, (_, index) => ({
+    number: index + 1,
+    title: publicPr.title,
+    html_url: `https://github.com/example/project/pull/${index + 1}`,
+    closed_at: publicPr.mergedAt,
+    pull_request: {},
+    user: { login: 'tusharg007' },
+  }));
+  const request = async (url) => {
+    if (!url.includes('/search/issues')) return response({ private: false });
+    const params = new URL(url).searchParams;
+    assert.match(params.get('q'), /is:public/);
+    const start = (Number(params.get('page')) - 1) * 100;
+    return response({ total_count: items.length, items: items.slice(start, start + 100) });
+  };
+  const result = await collectMergedPrs({ privatePrs: [privatePr], request });
+  assert.match(renderMergedPrs(result.items), /Merged PRs outside personal projects: 102/);
+});
+
 test('updates only the marked README region', () => {
   const readme = 'before\n<!--START_MERGED_PRS-->\nold\n<!--END_MERGED_PRS-->\nafter';
   const updated = updateReadme(readme, [privatePr]);

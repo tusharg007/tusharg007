@@ -32,7 +32,9 @@ export function renderMergedPrs(items) {
     return `| ${contribution} | ${pr.repository} | ${pr.mergedAt.slice(0, 10)} |`;
   });
   if (!rows.length) return '_No merged contributions outside personal projects yet._';
-  return ['| Contribution | Repository | Merged |', '| --- | --- | --- |', ...rows].join('\n');
+  const count = `**Merged PRs outside personal projects: ${items.length}**`;
+  const scope = rows.length < items.length ? ` Showing the ${rows.length} most recent.` : '';
+  return [count + scope, '', '| Contribution | Repository | Merged |', '| --- | --- | --- |', ...rows].join('\n');
 }
 
 export function updateReadme(readme, items) {
@@ -50,19 +52,27 @@ export async function collectMergedPrs({ token, privateToken, privatePrs, reques
     if (!response.ok) throw new Error(`GitHub PR refresh failed: HTTP ${response.status}`);
     return response.json();
   };
-  const query = encodeURIComponent(`is:pr is:merged author:${username} -user:${username}`);
-  const search = await get(`https://api.github.com/search/issues?q=${query}&sort=updated&order=desc&per_page=100`, token);
-  if (!Array.isArray(search.items) || search.incomplete_results) throw new Error('Incomplete GitHub PR search');
   const publicPrs = [];
+  const query = encodeURIComponent(`is:pr is:merged is:public author:${username} -user:${username}`);
   const repositories = new Map();
-  for (const item of search.items) {
-    if (!item.pull_request || item.user?.login?.toLowerCase() !== username) continue;
-    const match = /^https:\/\/github\.com\/([\w.-]+)\/([\w.-]+)\/pull\/\d+$/.exec(item.html_url);
-    if (!match || match[1].toLowerCase() === username) continue;
-    const repository = `${match[1]}/${match[2]}`;
-    if (!repositories.has(repository)) repositories.set(repository, await get(`https://api.github.com/repos/${repository}`, token));
-    if (repositories.get(repository).private !== false) continue;
-    publicPrs.push(normalizePr({ number: item.number, title: item.title, url: item.html_url, mergedAt: item.closed_at }));
+  const seenPublicUrls = new Set();
+  for (let page = 1; ; page++) {
+    const search = await get(`https://api.github.com/search/issues?q=${query}&sort=created&order=asc&per_page=100&page=${page}`, token);
+    if (!Array.isArray(search.items) || search.incomplete_results || search.total_count > 1000) {
+      throw new Error('Incomplete GitHub PR search');
+    }
+    for (const item of search.items) {
+      if (!item.pull_request || item.user?.login?.toLowerCase() !== username || seenPublicUrls.has(item.html_url)) continue;
+      const match = /^https:\/\/github\.com\/([\w.-]+)\/([\w.-]+)\/pull\/\d+$/.exec(item.html_url);
+      if (!match || match[1].toLowerCase() === username) continue;
+      const repository = `${match[1]}/${match[2]}`;
+      if (!repositories.has(repository)) repositories.set(repository, await get(`https://api.github.com/repos/${repository}`, token));
+      if (repositories.get(repository).private !== false) continue;
+      publicPrs.push(normalizePr({ number: item.number, title: item.title, url: item.html_url, mergedAt: item.closed_at }));
+      seenPublicUrls.add(item.html_url);
+    }
+    if (search.items.length < 100 || page * 100 >= search.total_count) break;
+    if (page >= 10) throw new Error('Incomplete GitHub PR search');
   }
 
   const approved = new Map(privatePrs.map(normalizePr).map((pr) => [`${pr.repository}#${pr.number}`, pr]));
@@ -82,7 +92,7 @@ export async function collectMergedPrs({ token, privateToken, privatePrs, reques
     }
   }
   const privateItems = [...approved.values()].sort((a, b) => Date.parse(b.mergedAt) - Date.parse(a.mergedAt));
-  const items = [...privateItems, ...publicPrs].sort((a, b) => Date.parse(b.mergedAt) - Date.parse(a.mergedAt)).slice(0, 5);
+  const items = [...privateItems, ...publicPrs].sort((a, b) => Date.parse(b.mergedAt) - Date.parse(a.mergedAt));
   return { items, privateItems };
 }
 
@@ -103,13 +113,14 @@ async function main() {
   });
   const readmePath = fileURLToPath(new URL('README.md', root));
   const feedPath = fileURLToPath(new URL('assets/merged-prs.json', root));
+  const recentItems = items.slice(0, 5);
   const readme = await readFile(readmePath, 'utf8');
   let previousFeed;
   try { previousFeed = JSON.parse(await readFile(feedPath, 'utf8')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
   await writeIfChanged(readmePath, updateReadme(readme, items));
   await writeIfChanged(privatePath, `${JSON.stringify({ items: privateItems }, null, 2)}\n`);
-  if (JSON.stringify(previousFeed?.items) !== JSON.stringify(items)) {
-    await writeIfChanged(feedPath, `${JSON.stringify({ updatedAt: new Date().toISOString(), items }, null, 2)}\n`);
+  if (JSON.stringify(previousFeed?.items) !== JSON.stringify(recentItems)) {
+    await writeIfChanged(feedPath, `${JSON.stringify({ updatedAt: new Date().toISOString(), items: recentItems }, null, 2)}\n`);
   }
   if (!process.env.PRIVATE_PRS_TOKEN) console.log('Private PRs: preserving approved snapshot; read-only token not configured.');
 }
