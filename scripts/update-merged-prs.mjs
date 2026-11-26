@@ -119,8 +119,10 @@ async function main() {
   try { previousFeed = JSON.parse(await readFile(feedPath, 'utf8')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
   await writeIfChanged(readmePath, updateReadme(readme, items));
   await writeIfChanged(privatePath, `${JSON.stringify({ items: privateItems }, null, 2)}\n`);
-  if (JSON.stringify(previousFeed?.items) !== JSON.stringify(recentItems)) {
-    await writeIfChanged(feedPath, `${JSON.stringify({ updatedAt: new Date().toISOString(), items: recentItems }, null, 2)}\n`);
+  if (previousFeed?.totalCount !== items.length || JSON.stringify(previousFeed?.items) !== JSON.stringify(recentItems)) {
+    await writeIfChanged(feedPath, `${JSON.stringify({
+      updatedAt: new Date().toISOString(), totalCount: items.length, items: recentItems,
+    }, null, 2)}\n`);
   }
   if (!process.env.PRIVATE_PRS_TOKEN) console.log('Private PRs: preserving approved snapshot; read-only token not configured.');
 }

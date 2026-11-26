@@ -3,7 +3,8 @@
 The hourly workflow excludes repositories owned by `tusharg007`. Public external
 contributions are refreshed using the workflow's repository-scoped token.
 The README counts all eligible public PRs and approved private entries, while
-its table and the shared JSON feed show only the five most recent.
+its table and the shared JSON feed list only the five most recent. The feed's
+`totalCount` field includes eligible PRs beyond those five rows.
 
 `data/approved-private-prs.json` contains explicitly approved, previously verified
 metadata only. Without a private read credential, the workflow preserves that
